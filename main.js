@@ -3,7 +3,6 @@ import renderElement  from './src/element.js'
 import { hideLoading, displayLoading } from './src/loading.js'
 import { fileExists } from './src/checkFileExists.js'
 
-// Async IIFE
 (async () => {
   try{
     displayLoading()
