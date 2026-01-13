@@ -8,7 +8,7 @@ import { fileExists } from './src/checkFileExists.js'
     displayLoading()
 
     const configPath = './config.js';
-    if (!(await fileExists(configPath))) { throw new Error("config file is missing, check the github repo how to create it") }
+    if (!(await fileExists(configPath))) { throw new Error("config file is missing") }
 
     const module = await import(configPath);
     const config = module.default;
