@@ -13,7 +13,7 @@ export const displayLoading = ( loader = loaderContainer, app = mainContent ) =>
 };
 
 /**
- * display loading element and hide app element
+ * display app element and hide loading
  * @param {HtmlElement} [elemendId=loaderContainer] - id element for loading
  * @param {HtmlElement} [app=mainContent] - id element for app
  * @returns {void}
