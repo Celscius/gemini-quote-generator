@@ -47,7 +47,7 @@ export async function request(geminiConfig, context) {
     // Extract the text content
     const rawText = data.candidates[0].content.parts[0].text;
     
-    // Clean JSON from 
+    // Clean JSON from noise
     const cleanJson = rawText.replace(/```json|```/g, "").trim();
     const quoteObj = JSON.parse(cleanJson);
     
