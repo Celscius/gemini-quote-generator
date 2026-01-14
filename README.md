@@ -16,6 +16,3 @@ if you have node js installed then you can use ```http-server``` and open ```htt
 This project uses the following UI template:
 *   **[Template](https://www.bootdey.com/snippets/view/profile-card-with-animation)** by **[bootdey](https://www.bootdey.com/)**.
 *   It is used under the [Mit license](https://www.bootdey.com/license).
-
-I would like to thank the original creators for providing this excellent resource!
-
